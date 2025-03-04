@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./Stopwatch.css";
+import "./StopWatch.css";
 
 
 function StopWatch() {
