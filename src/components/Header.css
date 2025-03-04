@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    background: black;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+  }
+  
+  .header nav ul li button,
+  .header nav ul li a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .header nav ul li button:hover,
+  .header nav ul li a:hover {
+    color: gray;
+  }
+  
+  /* 🔥 RESPONSIVE DESIGN (Mobil moslashuv) 🔥 */
+  @media screen and (max-width: 768px) {
+    .header {
+      padding: 10px 0;
+    }
+  
+    .header nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .header nav ul li a {
+      font-size: 1.2rem;
+    }
+  }
+  
